@@ -22,7 +22,7 @@ class MainWindow(gtk.Window):
         super(MainWindow, self).__init__()
         self.checked = False
         self.connect("destroy", self.do_exit)
-        self.set_size_request(400, 150)
+        #self.set_size_request(400, 150)
         self.set_position(gtk.WIN_POS_CENTER)
         self.set_title('MangaFox Grabber')
         try:
